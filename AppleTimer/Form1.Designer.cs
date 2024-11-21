@@ -192,7 +192,7 @@ namespace AppleTimer
             this.buyFasterHit.Name = "buyFasterHit";
             this.buyFasterHit.Size = new System.Drawing.Size(75, 23);
             this.buyFasterHit.TabIndex = 14;
-            this.buyFasterHit.Text = "20 alma";
+            this.buyFasterHit.Text = "30 alma";
             this.buyFasterHit.UseVisualStyleBackColor = true;
             // 
             // label3

@@ -23,6 +23,8 @@ namespace AppleTimer
         int requiredHits = 10;
         int apples = 0;
         int storageCapacity = 20;
+        int priceOfBiggerStorage = 10;
+        int priceOffFasterHit = 30;
 
         bool holdingAnApple = false;
         public Form1()
@@ -42,9 +44,9 @@ namespace AppleTimer
         }
         void StartTimers()
         {
-            WalkTimer.Interval = 16;
-            HitTimer.Interval = 16;
-            Gravity.Interval = 16;
+            WalkTimer.Interval = 1;
+            HitTimer.Interval = 1;
+            Gravity.Interval = 1;
             WalkTimer.Start();
             WalkTimer.Tick += WalkEvent;
             HitTimer.Tick += HitEvent;
@@ -135,17 +137,42 @@ namespace AppleTimer
                 {
                     Gravity.Stop();
                     holdingAnApple = false;
-                    
+                    kez.Left = test.Left + test.Width / 2 - kez.Width;
+                    hitCount = 0;
+                    if (apples < storageCapacity)
+                    {
+                        apples++;
+                    }
+                    UpdateAppleLabel();
+                    WalkTimer.Start();
                 }
+            }
+        }
+        void BuyBiggerStorage(object s, EventArgs e)
+        {
+            if (apples >= priceOfBiggerStorage)
+            {
+                apples -= priceOfBiggerStorage;
+                UpdateAppleLabel();
+                storageCapacity += 5;
+                priceOfBiggerStorage += 2;
+                button1.Text = $"{priceOfBiggerStorage} alma";
+
+                UpdateAppleLabel();
+                UpdateStorageLabel();
             }
         }
         void BuyFasterHit(object s, EventArgs e)
         {
+            if (apples >= priceOffFasterHit && requiredHits > 3)
+            {
+                apples -= priceOffFasterHit;
+                requiredHits--;
+                priceOffFasterHit += 30;
+                buyFasterHit.Text = $"{priceOffFasterHit} alma";
 
-        }
-        void BuyBiggerStorage(object s, EventArgs e)
-        {
-
+                UpdateAppleLabel();
+            }
         }
         void UpdateAppleLabel()
         {
