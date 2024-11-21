@@ -44,9 +44,9 @@ namespace AppleTimer
         }
         void StartTimers()
         {
-            WalkTimer.Interval = 1;
-            HitTimer.Interval = 1;
-            Gravity.Interval = 1;
+            WalkTimer.Interval = 16;
+            HitTimer.Interval = 16;
+            Gravity.Interval = 16;
             WalkTimer.Start();
             WalkTimer.Tick += WalkEvent;
             HitTimer.Tick += HitEvent;
