@@ -30,132 +30,132 @@ namespace AppleTimer
         private void InitializeComponent()
         {
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.Tree = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.Body = new System.Windows.Forms.PictureBox();
-            this.Head = new System.Windows.Forms.PictureBox();
-            this.Hand = new System.Windows.Forms.PictureBox();
-            this.Apple = new System.Windows.Forms.PictureBox();
+            this.kosar = new System.Windows.Forms.PictureBox();
+            this.torzs = new System.Windows.Forms.PictureBox();
+            this.fold = new System.Windows.Forms.PictureBox();
+            this.lomb = new System.Windows.Forms.PictureBox();
+            this.test = new System.Windows.Forms.PictureBox();
+            this.fej = new System.Windows.Forms.PictureBox();
+            this.kez = new System.Windows.Forms.PictureBox();
+            this.alma = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Tree)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Body)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Head)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Hand)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Apple)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.kosar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.torzs)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fold)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lomb)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.test)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fej)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.kez)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.alma)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.pictureBox1.Location = new System.Drawing.Point(650, 334);
+            this.pictureBox1.Location = new System.Drawing.Point(651, 334);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(11, 45);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // pictureBox2
+            // kosar
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.pictureBox2.Location = new System.Drawing.Point(604, 373);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(105, 49);
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
+            this.kosar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.kosar.Location = new System.Drawing.Point(604, 373);
+            this.kosar.Name = "kosar";
+            this.kosar.Size = new System.Drawing.Size(105, 49);
+            this.kosar.TabIndex = 1;
+            this.kosar.TabStop = false;
             // 
-            // Tree
+            // torzs
             // 
-            this.Tree.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.Tree.Location = new System.Drawing.Point(145, 211);
-            this.Tree.Name = "Tree";
-            this.Tree.Size = new System.Drawing.Size(49, 211);
-            this.Tree.TabIndex = 2;
-            this.Tree.TabStop = false;
+            this.torzs.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.torzs.Location = new System.Drawing.Point(118, 182);
+            this.torzs.Name = "torzs";
+            this.torzs.Size = new System.Drawing.Size(50, 240);
+            this.torzs.TabIndex = 2;
+            this.torzs.TabStop = false;
             // 
-            // pictureBox4
+            // fold
             // 
-            this.pictureBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.pictureBox4.Location = new System.Drawing.Point(-2, 419);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(803, 31);
-            this.pictureBox4.TabIndex = 3;
-            this.pictureBox4.TabStop = false;
+            this.fold.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.fold.Location = new System.Drawing.Point(-2, 419);
+            this.fold.Name = "fold";
+            this.fold.Size = new System.Drawing.Size(803, 31);
+            this.fold.TabIndex = 3;
+            this.fold.TabStop = false;
             // 
-            // pictureBox5
+            // lomb
             // 
-            this.pictureBox5.BackColor = System.Drawing.Color.Green;
-            this.pictureBox5.Location = new System.Drawing.Point(37, 62);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(266, 154);
-            this.pictureBox5.TabIndex = 4;
-            this.pictureBox5.TabStop = false;
+            this.lomb.BackColor = System.Drawing.Color.Green;
+            this.lomb.Location = new System.Drawing.Point(12, 12);
+            this.lomb.Name = "lomb";
+            this.lomb.Size = new System.Drawing.Size(267, 172);
+            this.lomb.TabIndex = 4;
+            this.lomb.TabStop = false;
             // 
-            // Body
+            // test
             // 
-            this.Body.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.Body.Location = new System.Drawing.Point(442, 297);
-            this.Body.Name = "Body";
-            this.Body.Size = new System.Drawing.Size(24, 125);
-            this.Body.TabIndex = 5;
-            this.Body.TabStop = false;
+            this.test.BackColor = System.Drawing.Color.Blue;
+            this.test.Location = new System.Drawing.Point(444, 291);
+            this.test.Name = "test";
+            this.test.Size = new System.Drawing.Size(24, 131);
+            this.test.TabIndex = 5;
+            this.test.TabStop = false;
             // 
-            // Head
+            // fej
             // 
-            this.Head.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.Head.Location = new System.Drawing.Point(429, 255);
-            this.Head.Name = "Head";
-            this.Head.Size = new System.Drawing.Size(48, 48);
-            this.Head.TabIndex = 6;
-            this.Head.TabStop = false;
+            this.fej.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.fej.Location = new System.Drawing.Point(432, 246);
+            this.fej.Name = "fej";
+            this.fej.Size = new System.Drawing.Size(45, 48);
+            this.fej.TabIndex = 6;
+            this.fej.TabStop = false;
             // 
-            // Hand
+            // kez
             // 
-            this.Hand.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.Hand.Location = new System.Drawing.Point(407, 334);
-            this.Hand.Name = "Hand";
-            this.Hand.Size = new System.Drawing.Size(46, 17);
-            this.Hand.TabIndex = 7;
-            this.Hand.TabStop = false;
+            this.kez.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.kez.Location = new System.Drawing.Point(407, 318);
+            this.kez.Name = "kez";
+            this.kez.Size = new System.Drawing.Size(46, 17);
+            this.kez.TabIndex = 7;
+            this.kez.TabStop = false;
             // 
-            // Apple
+            // alma
             // 
-            this.Apple.BackColor = System.Drawing.Color.Red;
-            this.Apple.Location = new System.Drawing.Point(253, 222);
-            this.Apple.Name = "Apple";
-            this.Apple.Size = new System.Drawing.Size(18, 18);
-            this.Apple.TabIndex = 8;
-            this.Apple.TabStop = false;
+            this.alma.BackColor = System.Drawing.Color.Red;
+            this.alma.Location = new System.Drawing.Point(222, 190);
+            this.alma.Name = "alma";
+            this.alma.Size = new System.Drawing.Size(18, 18);
+            this.alma.TabIndex = 8;
+            this.alma.TabStop = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.Apple);
-            this.Controls.Add(this.Hand);
-            this.Controls.Add(this.Head);
-            this.Controls.Add(this.Body);
-            this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.Tree);
-            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.alma);
+            this.Controls.Add(this.kez);
+            this.Controls.Add(this.fej);
+            this.Controls.Add(this.test);
+            this.Controls.Add(this.lomb);
+            this.Controls.Add(this.fold);
+            this.Controls.Add(this.torzs);
+            this.Controls.Add(this.kosar);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Tree)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Body)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Head)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Hand)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Apple)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.kosar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.torzs)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fold)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lomb)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.test)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fej)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.kez)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.alma)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -163,14 +163,14 @@ namespace AppleTimer
         #endregion
 
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox Tree;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.PictureBox Body;
-        private System.Windows.Forms.PictureBox Head;
-        private System.Windows.Forms.PictureBox Hand;
-        private System.Windows.Forms.PictureBox Apple;
+        private System.Windows.Forms.PictureBox kosar;
+        private System.Windows.Forms.PictureBox torzs;
+        private System.Windows.Forms.PictureBox fold;
+        private System.Windows.Forms.PictureBox lomb;
+        private System.Windows.Forms.PictureBox test;
+        private System.Windows.Forms.PictureBox fej;
+        private System.Windows.Forms.PictureBox kez;
+        private System.Windows.Forms.PictureBox alma;
     }
 }
 
