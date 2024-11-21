@@ -38,6 +38,15 @@ namespace AppleTimer
             this.fej = new System.Windows.Forms.PictureBox();
             this.kez = new System.Windows.Forms.PictureBox();
             this.alma = new System.Windows.Forms.PictureBox();
+            this.appleCounter = new System.Windows.Forms.Label();
+            this.storageLabel = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.buyFasterHit = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.kosar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.torzs)).BeginInit();
@@ -97,6 +106,7 @@ namespace AppleTimer
             // test
             // 
             this.test.BackColor = System.Drawing.Color.Blue;
+            this.test.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.test.Location = new System.Drawing.Point(444, 291);
             this.test.Name = "test";
             this.test.Size = new System.Drawing.Size(24, 131);
@@ -106,6 +116,7 @@ namespace AppleTimer
             // fej
             // 
             this.fej.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.fej.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.fej.Location = new System.Drawing.Point(432, 246);
             this.fej.Name = "fej";
             this.fej.Size = new System.Drawing.Size(45, 48);
@@ -115,6 +126,7 @@ namespace AppleTimer
             // kez
             // 
             this.kez.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.kez.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.kez.Location = new System.Drawing.Point(407, 318);
             this.kez.Name = "kez";
             this.kez.Size = new System.Drawing.Size(46, 17);
@@ -130,12 +142,101 @@ namespace AppleTimer
             this.alma.TabIndex = 8;
             this.alma.TabStop = false;
             // 
+            // appleCounter
+            // 
+            this.appleCounter.AutoSize = true;
+            this.appleCounter.Location = new System.Drawing.Point(523, 39);
+            this.appleCounter.Name = "appleCounter";
+            this.appleCounter.Size = new System.Drawing.Size(113, 13);
+            this.appleCounter.TabIndex = 9;
+            this.appleCounter.Text = "Gyűjtött almák száma: ";
+            // 
+            // storageLabel
+            // 
+            this.storageLabel.AutoSize = true;
+            this.storageLabel.Location = new System.Drawing.Point(523, 73);
+            this.storageLabel.Name = "storageLabel";
+            this.storageLabel.Size = new System.Drawing.Size(134, 13);
+            this.storageLabel.TabIndex = 10;
+            this.storageLabel.Text = "Kosár teherbírása: 20 alma";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(699, 127);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 11;
+            this.button1.Text = "10 alma";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(508, 159);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(0, 13);
+            this.label1.TabIndex = 12;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(523, 113);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(130, 13);
+            this.label2.TabIndex = 13;
+            this.label2.Text = "Nagyobb kosár vásárlása ";
+            // 
+            // buyFasterHit
+            // 
+            this.buyFasterHit.Location = new System.Drawing.Point(699, 172);
+            this.buyFasterHit.Name = "buyFasterHit";
+            this.buyFasterHit.Size = new System.Drawing.Size(75, 23);
+            this.buyFasterHit.TabIndex = 14;
+            this.buyFasterHit.Text = "20 alma";
+            this.buyFasterHit.UseVisualStyleBackColor = true;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(541, 171);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(91, 13);
+            this.label3.TabIndex = 15;
+            this.label3.Text = "Gyorsabb szedés ";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(563, 137);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(50, 13);
+            this.label4.TabIndex = 16;
+            this.label4.Text = "(+5 alma)";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(563, 190);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(50, 13);
+            this.label5.TabIndex = 17;
+            this.label5.Text = "(+5 alma)";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.buyFasterHit);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.storageLabel);
+            this.Controls.Add(this.appleCounter);
             this.Controls.Add(this.alma);
             this.Controls.Add(this.kez);
             this.Controls.Add(this.fej);
@@ -157,6 +258,7 @@ namespace AppleTimer
             ((System.ComponentModel.ISupportInitialize)(this.kez)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.alma)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -171,6 +273,15 @@ namespace AppleTimer
         private System.Windows.Forms.PictureBox fej;
         private System.Windows.Forms.PictureBox kez;
         private System.Windows.Forms.PictureBox alma;
+        private System.Windows.Forms.Label appleCounter;
+        private System.Windows.Forms.Label storageLabel;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button buyFasterHit;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
     }
 }
 
